@@ -25,7 +25,7 @@ This task manager is deliberately made not completely asynchronous in order for 
 - User registration and authentication.
 - CRUD operations for tasks (Create, Read, Update, Delete).
 - Real-time updates for task status changes using WebSocket.
-- Basic authentication for API access.
+- OAuth2 authentication for API access.
 - Simple and straightforward project structure.
 
 ## Project Structure
