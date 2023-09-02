@@ -2,7 +2,9 @@
 Real-time task manager for my FastAPI course
 https://stepik.org/course/179694/syllabus
 
-Task Manager FastAPI is a simple task management API built using FastAPI. It provides basic CRUD (Create, Read, Update, Delete) operations for tasks and includes real-time updates for task status changes via WebSocket.
+Task Manager FastAPI is a simple task management API built using FastAPI. 
+It provides basic CRUD (Create, Read, Update, Delete) operations for tasks and includes real-time updates for task status changes via WebSocket.
+
 This task manager is deliberately made not completely asynchronous in order for students to complete the Final project on their own. It also uses at least 4 deprecated methods for the same purposes. To improve, it is necessary to make asynchronous work with databases and update the endpoint code.
 
 ## Table of Contents
@@ -106,7 +108,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 Replace `0.0.0.0` and `8000` with your desired host and port.
 
-Or you can Just run `main.py`:
+Or you can just run `main.py`:
 ```bash
 python3 main.py
 ```
@@ -138,4 +140,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
