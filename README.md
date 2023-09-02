@@ -73,6 +73,7 @@ task_manager_fastapi/
 Before running the application, make sure you have the following prerequisites installed:
 
 - Python 3.7+ (3.10+ recommended).
+- PostgreSQL.
 
 ### Installation
 
@@ -127,6 +128,62 @@ The API exposes the following endpoints:
 - `DELETE /api/v1/tasks/{task_id}`: Delete a specific task (protected endpoint). 
 
 For real-time updates on task status changes, use WebSocket connections to `/ws/tasks/{client_id}`.
+
+
+## Testing the API with Swagger UI
+
+Fast API comes with Swagger UI. This tool is automatically generated based on your API's route definitions and Pydantic models.
+
+### Accessing Swagger UI
+
+Once the API is running, Swagger UI can be accessed on the following URL:
+
+```bash
+http://localhost:8000/docs
+```
+
+You can use swagger UI to:
+
+1. **Browse Endpoints**
+2. **Send Requests**
+3. **View Responses**
+4. **Test Validations**
+
+**To Test with SwaggerUI, you can do the following for each endpoint explained above**
+
+1. Open your web browser and navigate to the /docs path as mentioned above.
+
+2. Explore the available endpoints and select the one you want to test.
+
+3. Click on the "Try it out" button to open an interactive form where you can input data.
+
+4. Fill in the required parameters and request body (if applicable) according to the API documentation given above.
+
+5. Click the "Execute" button to send the request to the API.
+
+6. The response will be displayed below, showing the status code and response data.
+
+7. You can also view example request and response payloads, which can be helpful for understanding the expected data format.
+
+## Testing the API with pytest Framework
+
+A suite of `tests` using the pytest framework was used to help verify the functionality of the Task Manager FastAPI.
+
+### Running the tests
+
+1. Navigate to the `task_manager_fastapi` (root) directory using a terminal:
+
+```bash
+cd <your_path_to_project>/task_manager_fastapi
+```
+
+2. Run the tests by executing the following command:
+
+```bash
+pytest
+```
+
+This command will automatically discover and run the test cases defined in the `tests` directory.
 
 ## Contributing
 
