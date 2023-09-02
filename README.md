@@ -79,7 +79,7 @@ Before running the application, make sure you have the following prerequisites i
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/cheater121/task_manager_fastapi.git
+   git clone https://github.com/Cheater121/task_manager_fastapi.git
    cd task_manager_fastapi
    ```
 
