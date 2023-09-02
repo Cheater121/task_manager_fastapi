@@ -1,9 +1,6 @@
-# task_manager_fastapi
+# Task Manager FastAPI
 Real-time task manager for my FastAPI course
 https://stepik.org/course/179694/syllabus
-
-```markdown
-# Task Manager FastAPI
 
 Task Manager FastAPI is a simple task management API built using FastAPI. It provides basic CRUD (Create, Read, Update, Delete) operations for tasks and includes real-time updates for task status changes via WebSocket.
 This task manager is deliberately made not completely asynchronous in order for students to complete the Final project on their own. It also uses at least 4 deprecated methods for the same purposes. To improve, it is necessary to make asynchronous work with databases and update the endpoint code.
