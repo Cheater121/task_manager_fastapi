@@ -177,7 +177,7 @@ A suite of `tests` using the pytest framework was used to help verify the functi
 cd <your_path_to_project>/task_manager_fastapi
 ```
 
-2. Run the tests by executing the following command:
+2. Run the tests by executing the following command (don't forget to activate your virtual environment if used):
 
 ```bash
 pytest
