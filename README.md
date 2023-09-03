@@ -18,7 +18,8 @@ This task manager is deliberately made not completely asynchronous in order for 
   - [Running the Application](#running-the-application)
   - [API Endpoints](#api-endpoints)
 - [Testing with Swaggerui](#testing-the-api-with-swagger-ui)
-- [Testing with pytest](#testing-the-api-with-pytest-framework) 
+- [Testing with pytest](#testing-the-api-with-pytest-framework)
+- [Potential Improvements](#potential-improvements)
 - [Contributing](#contributing)
 - [License](#license)
 
