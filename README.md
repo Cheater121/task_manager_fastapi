@@ -42,12 +42,12 @@ task_manager_fastapi/
 │   │   ├── models/
 │   ├── core/
 │   ├── db/
-│   ├── main.py
 ├── tests/
 ├── .env
 ├── .gitignore
 ├── alembic.ini
 ├── README.md
+├── main.py
 ├── requirements.txt
 ```
 
